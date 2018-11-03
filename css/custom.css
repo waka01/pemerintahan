@@ -1,0 +1,79 @@
+/* your styles go here */
+
+#contact {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0; }
+
+#locationmap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+
+
+.bk-overlay {
+  background: rgba(0, 0, 0, 0.1); }
+
+.bk-half-overlay {
+  background: rgba(0, 0, 0, 0.2); }
+
+.bl-overlay {
+  background: rgba(52, 152, 219, 0.4); }
+
+.bk-gr-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  @inlcude transition(0.3); }
+  .bk-gr-overlay:hover {
+    @inlcude transition(0.3); }
+
+
+hr.bl-line-sep {
+  max-width: 40px;
+  margin: 10px 0;
+  color: #3498db;
+  border: solid 2px #3498db;
+  color: #3498db;
+  fill: #3498db; }
+
+
+.loc-frame {
+  overflow: hidden;
+  background: #fff;
+  padding: 30px;
+  top: 50%;
+  transform: translateY(-50%); }
+  .loc-frame .loc-title {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    font-size: 2.7em; }
+  .loc-frame .loc-table {
+    margin: 20px 0px;
+    padding: 10px 0px; }
+    .loc-frame .loc-table tr td {
+      padding-top: 5px;
+      padding-bottom: 5px; }
+
+@media screen and (min-width: 1280px) {
+  .loc-frame {
+    max-width: 25%; }
+  }
